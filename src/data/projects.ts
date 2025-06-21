@@ -198,7 +198,7 @@ export const projects = [
     shortDescription: "Personal portfolio showcasing my work and skills",
     longDescription:
       "A modern and fully responsive personal portfolio developed using React and Tailwind CSS. This project highlights my work and skills through an elegant interface, enhanced with animations using Framer Motion and tsParticles. It features an integrated contact form powered by EmailJS and is optimized for performance with lazy loading and smooth transitions across all sections.",
-    live: "https://port-folio-pi-pied.vercel.app/",
+    live: "https://port-folios-mu.vercel.app/",
     images: [photo18, photo19],
     features: [
       "Modern and responsive layout with Tailwind CSS",
