@@ -22,6 +22,11 @@ import photo18 from "../assets/image/photo18.png";
 import photo19 from "../assets/image/photo19.png";
 import photo20 from "../assets/image/photo20.png";
 import photo21 from "../assets/image/photo21.png";
+import photo22 from "../assets/image/photo22.png";
+import photo23 from "../assets/image/photo23.png";
+import photo24 from "../assets/image/photo24.png";
+import photo25 from "../assets/image/photo25.png";
+
 
 export interface Project {
   id: number;
@@ -137,9 +142,42 @@ export const projects = [
 
     category: "Website",
   },
+  {
+  id: 4,
+  type: "Next.js",
+  title: "MJ Restaurant",
+  shortDescription: "Modern Restaurant Website",
+  longDescription:
+    "A polished restaurant website for MJ Restaurant built with Next.js 15 and React 19, styled using Tailwind CSS for a clean, responsive UI. It showcases a categorized menu (Breakfast, Grilled, Drinks), a stories/blog section, and a contact page with an integrated reservation flow (“Find A Table”). Motion details are handled with Framer Motion, dialogs with Radix UI, and forms with React Hook Form + React DatePicker for a smooth booking experience. The site highlights location, hours, and direct call-to-action, delivering a modern, fast, and mobile-friendly dining experience.",
+  
+  live: "https://mj-restaurant.vercel.app/",
+  images: [photo22, photo23, photo24,photo25],
+  features: [
+    "Home, About, Menus (with category filters), Blogs, and Contact pages",
+    "Table reservation flow with date & time selection",
+    "Responsive layout optimized for mobile and desktop",
+    "Animated sections and smooth interactions with Framer Motion",
+    "Accessible dialogs and overlays via Radix UI",
+    "Form validation and toasts using React Hook Form and Sonner",
+    "Clear business info: location, opening hours, and phone CTA",
+  ],
+  challenges: [
+    "Designing a clear menu grid with category filters while keeping performance and readability.",
+    "Implementing a reservation flow that handles date/time picks and validation gracefully.",
+    "Maintaining consistent animations without hurting page performance on mobile.",
+  ],
+  Solutions: [
+    "Built a filterable menu grid and reused card components to keep UI consistent and fast.",
+    "Used React Hook Form with React DatePicker and date-fns to validate inputs and prevent invalid bookings, plus Sonner for user feedback.",
+    "Applied Framer Motion only to key sections and used lazy rendering where possible to keep transitions smooth.",
+  ],
+
+  category: "Website",
+},
+
 
   {
-    id: 4,
+    id: 5,
     type: "react",
     title: "FylO",
     shortDescription: "landing page",
@@ -164,7 +202,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     type: "react",
     title: "Flight Booking System",
     shortDescription: "Flight search and booking platform",
@@ -192,7 +230,7 @@ export const projects = [
     category: "Website",
   },
   {
-    id: 6,
+    id: 7,
     type: "React",
     title: "Portfolio",
     shortDescription: "Personal portfolio showcasing my work and skills",
@@ -222,7 +260,7 @@ export const projects = [
   },
 
   {
-    id: 7,
+    id: 9,
     type: "React",
     title: "portfolio",
     shortDescription: "An interactive personal portfolio",
@@ -279,7 +317,7 @@ export const projects = [
     category: "Dashboard",
   },
   {
-    id: 9,
+    id: 10,
     type: "HTML & CSS",
     title: "",
     shortDescription: "HTML and CSS",
