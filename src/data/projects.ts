@@ -186,7 +186,7 @@ export const projects = [
   longDescription:
     "Built the official company website from scratch based on Figma designs. Developed clean, responsive UI components with smooth animations and interactive navigation, and implemented a functional contact form to support lead generation. The final result is a modern, fast, and production-ready marketing website.",
 
-  live: "PUT_CATALYST_LIVE_LINK_HERE",
+  live: "https://www.catalysttechs.com/",
   images: [catalyst1, catalyst3], 
   features: [
     "Figma to pixel-perfect, responsive UI",
@@ -299,7 +299,7 @@ export const projects = [
     shortDescription: "An interactive personal portfolio",
     longDescription:
       "An interactive personal portfolio designed and developed using React,with features like seamless navigation between sections using React Router,interactive slideshow using Swiper, and an efficient contact form via EmailJS,with a responsive design that fits all devices.",
-    live: "https://drive.google.com/file/d/1asEWrUuFh4rncnK60VBWEe2kKLFlOi-D/view?usp=sharing",
+    live: "https://",
     images: [photo9, photo10],
     features: [
       "Seamless navigation between sections using React Router",
