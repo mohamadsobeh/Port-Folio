@@ -26,6 +26,9 @@ import photo22 from "../assets/image/photo22.png";
 import photo23 from "../assets/image/photo23.png";
 import photo24 from "../assets/image/photo24.png";
 import photo25 from "../assets/image/photo25.png";
+import catalyst1 from "../assets/image/catalyst-1.png";
+import catalyst3 from "../assets/image/catalyst-3.png";
+
 
 
 export interface Project {
@@ -175,6 +178,36 @@ export const projects = [
   category: "Website",
 },
 
+{
+  id: 11, 
+  type: "Next.js",
+  title: "Catalyst Techs Website",
+  shortDescription: "Company Website – Freelance Project",
+  longDescription:
+    "Built the official company website from scratch based on Figma designs. Developed clean, responsive UI components with smooth animations and interactive navigation, and implemented a functional contact form to support lead generation. The final result is a modern, fast, and production-ready marketing website.",
+
+  live: "PUT_CATALYST_LIVE_LINK_HERE",
+  images: [catalyst1, catalyst3], 
+  features: [
+    "Figma to pixel-perfect, responsive UI",
+    "Reusable sections/components for scalability",
+    "Smooth animations and interactions using Framer Motion",
+    "Swiper-powered sliders/sections",
+    "Contact form integration (Formspree) with validation using React Hook Form",
+    "Production-ready deployment and optimized performance",
+  ],
+  challenges: [
+    "Keeping animations smooth without affecting performance.",
+    "Building reusable sections while maintaining consistent design across pages.",
+    "Ensuring the contact form UX is clear and reliable.",
+  ],
+  Solutions: [
+    "Used Framer Motion only on key sections and optimized animations to keep the site fast.",
+    "Created reusable components/sections with a consistent structure to speed up development and maintenance.",
+    "Integrated React Hook Form with Formspree and added clear validation/error handling for better UX.",
+  ],
+  category: "Website",
+},
 
   {
     id: 5,
